@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width: 824px) {
+
+	.large-hero__title {
+		letter-spacing: 3px;
+		font-size: 2.5em;
+	}
+
+	.large-hero__subtitle {
+	}
+	.large-hero {
+		position: relative;
+		height: 28em;
+
+	}
+
+	.large-hero__text-content {
+		padding-top: 0px;
+	    position: absolute;
+	    top: 50%;
+	    transform: translateY(-33%);
+	    left: 0;
+	    width: 100%;
+	    text-align: center;
+
+	    color: black;
+	}
+
+	.large-hero__arrow-container {
+		transform: translateY(30%);
+	}
+
+	.section-projects {
+	
+		height: 258em;
+	}
+
+}
+
+

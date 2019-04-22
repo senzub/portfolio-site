@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 321px) {
+	
+	
+	.large-hero__text-content {
+	    transform: translateY(-30%);
+
+	}	
+
+	.site-footer p {
+
+		letter-spacing: 3px;
+	}	
+
+	#icon-container--frontend {
+		
+		padding-left: 195px;
+
+	}
+
+	#icon-container--backend {
+		
+		padding-left: 200px;
+
+	}
+
+	#icon-container--tools {
+		
+		padding-left: 200px;
+
+	}	
+
+}

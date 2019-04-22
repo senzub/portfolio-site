@@ -1,0 +1,23 @@
+@media screen and (max-width: 569px) {
+
+
+	.large-hero__text-content {
+		padding-top: 0px;
+	    position: absolute;
+	    top: 50%;
+	    transform: translateY(-42%);
+	    left: 0;
+	    width: 100%;
+	    text-align: center;
+
+	    color: black;
+	}
+
+	.large-hero__arrow-container {
+		transform: translateY(30%);
+	}
+
+
+}
+
+

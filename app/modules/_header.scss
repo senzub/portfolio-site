@@ -1,0 +1,31 @@
+
+.site-header {
+	width: 100%;
+	z-index: 20;
+	padding: 10px 10px 0px 10px;
+	background-color: white;
+	width: 100%;
+	z-index: 2;
+	transition: background-color .3s ease-out;
+    position:fixed;
+    top:0;
+	
+}
+
+header {
+	height: 130px;
+}
+
+.site-header__name {
+	font-size: 50px;
+	padding-top: 70px;
+	padding-left: 40px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	font-family: 'Montserrat';
+	transform: translate(-5%, -17%);
+    -ms-transform: translate(-5%, -17%); /* IE 9 */
+    -webkit-transform: translate(-5%, -17%); /* Safari */	
+}
+
+

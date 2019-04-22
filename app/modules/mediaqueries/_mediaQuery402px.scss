@@ -1,0 +1,75 @@
+@media screen and (max-width: 402px) {
+
+	header {
+		height: 130px;
+	}
+	
+	video {
+		height: 9.7em;
+		width: 19.4em;
+	}	
+
+
+	.section-about {
+		width: 100%;
+		height: 67em;
+		color: white;
+		margin-top: 4em;
+		text-align: center;
+	}
+
+	.section-skills h1 {
+		width: 220px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#h1decorator {
+		width: 250px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+
+	.section-projects__text-content h6 {	
+		width: 250px;
+		font-size: 0.6em;
+	}
+
+
+
+	.section-projects {
+		width: 100%;
+		background-color: black;
+		color: #FFF;
+		
+		text-align: center;
+		height: 294em;
+	}	
+
+	.section-about__text-content p {
+		width: 300px;
+		font-size: 1.1em;
+		letter-spacing: 2px;
+		line-height: 2em;
+		text-align: center;
+		font-weight: 400;
+		font-family: Lato;
+	}
+
+	.section-projects__text-content p {
+		width: 270px;
+		font-size: 1.1em;
+		letter-spacing: 2px;
+		line-height: 2em;
+		text-align: left;
+		font-weight: 400;
+		font-family: Lato;
+
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+}
+

@@ -1,0 +1,103 @@
+
+@media screen and (max-width: 979px) {
+	video {
+		height: 27em;
+		width: 54em;
+	}
+
+
+
+	.section-about__text-content p {
+		width: 760px;
+		font-size: 1.2em;
+		letter-spacing: 2px;
+		line-height: 2em;
+		text-align: left;
+		font-weight: 400;
+		font-family: Lato;
+	}
+
+	.section-skills {
+		height: 70em;
+	}
+
+
+	.section-skills h1 {
+		transform: translate(8px, 30px);
+	}
+
+	#h1decorator {
+		width: 500px;
+		transform: translate(0px, 0);
+	}
+
+
+
+
+	#icon-container--frontend {
+		padding-left: 212px;
+		margin-left: 0px;
+	}
+
+
+	
+	#icon-container--backend {
+		padding-left: 220px;
+		padding-top: 80px;
+		margin-bottom: 30px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#icon-container--tools {
+		padding-left: 215px;
+		padding-top: 80px;
+		margin-bottom: 30px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+
+
+	.icon-containers h4 {
+		display: block;
+	}
+
+
+
+
+
+
+
+
+	.section-projects__text-content p {
+		width: 760px;
+		font-size: 1.2em;
+		letter-spacing: 2px;
+		line-height: 2em;
+		text-align: left;
+		font-weight: 400;
+		font-family: Lato;
+
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.section-projects__text-content h6 {	
+		width: 700px;
+		margin-bottom: 3em;
+		margin-left: auto;
+		margin-right: auto;
+		
+		text-align: left;
+
+		font-size: 0.9em;
+		font-weight: 400;
+		letter-spacing: 4px;
+		font-family: 'Montserrat';
+
+		line-height: 25px;
+	}
+
+
+}

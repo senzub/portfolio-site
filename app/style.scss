@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Song+Myung|Sunflower:300');
+
+@import "modules/_normalize.scss";
+@import "modules/_wrapper.scss";
+@import "modules/_primary-nav.scss";
+@import "modules/_header.scss";
+@import "modules/_btn.scss";
+@import "modules/_icon-containers.scss";
+@import "modules/_large-hero.scss";
+@import "modules/_section-about.scss";
+@import "modules/_section-projects.scss";
+@import "modules/_section-skills.scss";
+@import "modules/_site-footer.scss";
+
+
+@import "modules/mediaqueries/_mediaQuery1140px.scss";
+@import "modules/mediaqueries/_mediaQuery1122px.scss";
+@import "modules/mediaqueries/_mediaQuery979px.scss";
+@import "modules/mediaqueries/_mediaQuery880px.scss";
+@import "modules/mediaqueries/_mediaQuery830px.scss";
+@import "modules/mediaqueries/_mediaQuery824px.scss";
+@import "modules/mediaqueries/_mediaQuery767px.scss";
+@import "modules/mediaqueries/_mediaQuery720px.scss";
+@import "modules/mediaqueries/_mediaQuery690px.scss";
+@import "modules/mediaqueries/_mediaQuery655px.scss";
+@import "modules/mediaqueries/_mediaQuery630px.scss";
+@import "modules/mediaqueries/_mediaQuery600px.scss";
+@import "modules/mediaqueries/_mediaQuery595px.scss";
+@import "modules/mediaqueries/_mediaQuery569px.scss";
+@import "modules/mediaqueries/_mediaQuery500px.scss";
+@import "modules/mediaqueries/_mediaQuery470px.scss";
+@import "modules/mediaqueries/_mediaQuery456px.scss";
+@import "modules/mediaqueries/_mediaQuery415px.scss";
+@import "modules/mediaqueries/_mediaQuery402px.scss";
+@import "modules/mediaqueries/_mediaQuery353px.scss";
+@import "modules/mediaqueries/_mediaQuery321px.scss";
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.linkColor {
+	color: black;
+}
+
+.about-and-skills {
+	background-color: black;
+	
+}
+
+
+

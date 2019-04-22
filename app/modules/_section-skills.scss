@@ -1,0 +1,39 @@
+
+.section-skills {
+	background-color: #fff;
+	color: black;
+
+	width: 100%;
+	height: 50.5em;
+	margin-top: 4em;
+	text-align: center;
+}
+
+
+
+.section-skills h1 {
+	
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 500;
+	letter-spacing: 8px;
+	font-family: montserrat;
+	transform: translate(3px, 30px);
+    -ms-transform: translate(3px, 30px); /* IE 9 */
+    -webkit-transform: translate(3px, 30px); /* Safari */		
+	margin-bottom: 0.9em;
+}
+
+#h1decorator {
+	display: inline-block;
+	width: 785px;
+	margin-top: 2.7em;
+	margin-bottom: 5em;
+	transform: translate(-10px, 0);	
+    -ms-transform: translate(-10px, 0); /* IE 9 */
+    -webkit-transform: translate(-10px, 0); /* Safari */	
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+
+    
+}

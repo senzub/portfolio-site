@@ -1,0 +1,29 @@
+
+.icon-containers img {
+	margin: 10px 20px;
+}
+
+.icon-containers h4 {
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 500;
+	letter-spacing: 1px;
+
+
+	font-family: Sunflower;
+	transform: translate(-100px, -40px);
+    -ms-transform: translate(-100px, -40px); /* IE 9 */
+    -webkit-transform: translate(-100px, -40px); /* Safari */	
+}
+
+#icon-container--backend {
+	margin-left: -114px;
+	margin-right: 125px;
+}
+
+#icon-container--tools {
+	margin-left: -39px;
+	margin-right: 100px;
+}
+
+

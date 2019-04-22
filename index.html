@@ -1,0 +1,149 @@
+<html>
+<head>
+  <title>Senzubee</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/dist/style.css">
+</head>
+<body>
+  <header class="site-header" id="navbar">
+    <div class="wrapper">
+	  <div class="site-header__name">
+	  	Senzub
+	  </div>
+	  <div>
+	    <nav class="primary-nav primary-nav--float-right">
+	      <ul>
+	      	<li><a href="" id="aboutBtn" class="linkColor">About</a></li>
+	      	<li><a href="" id="skillsBtn" class="linkColor">Skills</a></li>
+	      	<li><a href="" id="projectsBtn" class="linkColor">Projects</a></li>
+	      	<li><a href="" id="contactBtn" class="linkColor">Contact</a></li>
+	      </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="large-hero">
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+		<h1 class="large-hero__title">Hello, my name is Robbie Cha</h1>
+		<h2 class="large-hero__subtitle">I am a self-taught Web Devloper</h2>
+      </div>
+	<div class="large-hero__arrow-container">
+      <a href="" class="btn" id="arrowAboutBtn"><i class="down"></i></a>
+	</div>
+	</div>
+  </div>
+  <div class="about-and-skills">
+	<div class="section-about" id="about">
+		<div class="section-about__text-content">
+			<h1>About</h1>
+			<p>
+			I graduated recently in 2017 from Stony Brook University with a degree in biochemistry and am now a biochemistry major turned programmer. I initially began progamming as a hobby, taking a few online courses such as the notable CS50 course on edx, but soon developed a passion for the work as I learned more about the different subfields. I soon branched out into web development, learning the basics of backend and frontend technologies as I built projects just beyond my current abilities.
+		</p> 
+		<p>
+			While I am self-taught and lack the fundamentals of a computer science education, I learn quickly and work diligently to expand my skills. 
+			</p>
+		</div>
+	</div>
+	<div class="section-skills" id="skills">
+		<div id="h1decorator">
+			<h1>Skills</h1>
+		</div>
+		<div class="icon-containers">
+			<div>
+				<h4 id="icon-container--frontend">FrontEnd</h4>
+				<img src="/images/javascriptIcon.svg" width="75" height="75">
+				<img src="/images/jqueryIcon.svg" width="75" height="75">
+				<img src="/images/reactIcon2.svg" width="75" height="75">
+				<img src="/images/redux.svg" width="75" height="75">
+				<img src="/images/cssIcon.svg" width="75" height="75">
+				<img src="/images/htmlIcon2.svg" width="75" height="75">
+			</div>
+		</div>
+		<div class="icon-containers">
+			<div>
+				<h4 id="icon-container--backend">BackEnd</h4>
+				<img src="/images/mongodbIcon.svg" width="75" height="75">
+				<img src="/images/mysql.svg" width="75" height="75">
+				<img src="/images/nodejsIcon.svg" width="75" height="75" id="adjust">
+			</div>
+		</div>
+		<div class="icon-containers"> 
+			<div>
+				<h4 id="icon-container--tools">Tools</h4>
+				<img src="/images/githubIcon.svg" width="75" height="75">
+				<img src="/images/gitIcon.svg" width="75" height="75">
+			</div>
+		</div>		
+	</div>  
+  </div>
+  <div class="section-projects" id="projects">
+  	<h1>Projects</h1>
+  	<div class="section-projects__text-content">
+  		<h5>Twitterize - Full Stack Web App</h5>
+		<h6>React, HTML, CSS, Javascript, Node, Express, MongoDB, Mongoose, Twitter API</h6>
+  		<p>
+			Twitterize is an app that allows users to organize their twitter favorites into categories. People often use favorites as a way to bookmark and save a tweet, which get lost in time due to the continous deluge of information on social media. 
+		</p>
+		<p>
+			Twitterize is my solution to this problem by organizing favorites into easily accesible categories. This was my most challenging project to date and helped me learn the basics of reactjs and database storage using mongodb.
+  		</p>
+  		<video poster="/images/twitterize.png" src=""
+  		muted autoplay loop autobuffer playsinline></video>
+  		<div class="projectBtns">
+  			<a href="https://twitterize.netlify.com/#/" target="_blank">Visit</a>
+  			<a href="https://github.com/senzub/twitterize" target="_blank">Github</a>
+  		</div>
+  	</div>
+  	<hr>  
+  	<div class="section-projects__text-content projectBarrier">
+  		<h5>Note-Share - Full Stack Web App</h5>
+  		<h6>React, Redux, HTML, SCSS, Javascript, Node, Express, MySQL</h6>
+  		<p>
+  			Note-share is a visual note taking and sharing app: most note apps use a text editor, which allows for a single large block of text but concepts (especially in programming) frequently involve many complex relationships best represented spatially and not through bullet points or paragraphs. 
+  		</p>
+  		<p>
+  			I had also recently taken courses on MySQL and redux and was itching to implement in a real-life project to cement my knowledge. This project allowed me to better grasp server-side programming through MySQL store of note positions and better understand state by comparing how react class-based components and redux global store utilize and save state.
+  		</p>
+   		<video poster="/images/note-share.png" src=""
+  		muted autoplay loop autobuffer playsinline></video>   		
+  		<div class="projectBtns">
+  			<a href="https://note-share.netlify.com/" target="_blank">Visit</a>
+  			<a href="https://github.com/senzub/map-twit" target="_blank">Github</a>
+  		</div>	
+  	</div>  	
+  	<hr>  
+  	<div class="section-projects__text-content projectBarrier">
+  		<h5>Map-Twit - Full Stack Web App</h5>
+  		<h6>HTML, CSS, Javascript, Node, Express, Google Maps API, Twitter API</h6>
+  		<p>
+			'Map Twit' is a small app that I built to help me learn how to use nodeJS and connect to public APIs, in this case, the Google Maps and Twitter APIs. It allows a user to enter a screenname from twitter and see the physical locations (represented as blue twitter bird markers on the map) and proximity of either their followers, or the people they follow, given that the addresses are publicly available and accurate.
+  		</p>		
+   		<video poster="/images/map-twit.png" src=""
+  		muted autoplay loop autobuffer playsinline></video> 	
+  		<div class="projectBtns">
+  			<a href="https://map-twit.netlify.com/" target="_blank">Visit</a>
+  			<a href="https://github.com/senzub/map-twit" target="_blank">Github</a>
+  		</div>	
+  	</div>
+  </div>
+  <footer class="site-footer" id="contact">
+  	<h1>Contact</h1>
+  	<div>
+		<h4>email</h4> 
+		<p>senzubee@gmail.com</p>
+		<img src="/images/emailIcon.svg" width="75" height="75">
+	</div>
+	<div>
+		<h4>github</h4> 
+		<p>
+			<a href="https://github.com/senzub" target="_blank">https://github.com/senzub</a>
+		</p>
+		<img src="/images/githubIcon.svg" width="75" height="75">
+	</div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/scripts/App.js"></script>
+</body>
+</html>

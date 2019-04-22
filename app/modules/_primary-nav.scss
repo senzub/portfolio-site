@@ -1,0 +1,44 @@
+
+.primary-nav {
+	padding-top: 0px;
+	transform: translateY(-250%);
+	transform: translate(7%, -250%);
+
+
+}
+
+.primary-nav--float-right {
+	float: right;
+}
+
+.primary-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.primary-nav li {
+	list-style: none;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.primary-nav a {
+	padding: 5px 8px;
+	text-decoration: none;
+	font-family: 'Sunflower';
+	font-weight: 700;
+	font-size: 21px;
+	letter-spacing: 4px;
+}
+
+
+
+.primary-nav a:hover {
+	border-bottom: 4px solid black;
+    -webkit-transition:border-bottom .2s;
+    -moz-transition:border-bottom .2s;
+    -ms-transition:border-bottom .2s;
+     -o-transition:border-bottom .2s;
+        transition:border-bottom .2s;
+}
+

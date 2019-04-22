@@ -1,0 +1,61 @@
+
+
+@media screen and (max-width: 655px) {
+	
+
+	video {
+		height: 18em;
+		width: 36em;
+	}	
+
+
+	.site-header {
+		width: 100%;
+		z-index: 20;
+		padding: 10px 10px 0px 10px;
+		background-color: white;
+		width: 100%;
+		z-index: 2;
+	    position:fixed;
+	    top:0;
+		
+	}
+
+
+	.site-header__name {
+		font-size: 35px;
+		padding-top: 80px;
+		padding-left: 40px;
+		font-weight: 900;
+		letter-spacing: 3px;
+		font-family: 'Montserrat';
+		margin-top: -10px;
+
+	}
+
+
+
+	.primary-nav {
+		padding-top: 0px;
+		transform: translateY(-250%);
+		transform: translate(7%, -250%);
+		margin-top: -25px;
+
+	}
+
+	.primary-nav a {
+		padding: 5px 8px;
+		text-decoration: none;
+		font-family: 'Sunflower';
+		font-weight: 700;
+		font-size: 15px;
+		letter-spacing: 4px;
+	}
+
+
+	.section-projects {
+
+		height: 268em;
+	}
+
+}

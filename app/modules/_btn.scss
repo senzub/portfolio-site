@@ -1,0 +1,33 @@
+
+.btn {
+
+
+}
+
+
+.btn--front {
+	padding: 1.1rem 1.9rem;
+
+}
+
+.btn i {
+	border: solid black;
+	display: inline-block;
+	padding: 1.25em;
+	border-width: 0 3px 3px 0;
+	border-radius: 0 0.3em 0.7em 0.3em;
+}
+
+.btn .down {
+	transform: rotate(45deg);
+}
+
+.btn i:hover {
+	animation: arrow-bounce 1.7s ease-in-out infinite;
+}
+
+@keyframes arrow-bounce {
+	0%, 100% {transform: rotate(45deg) translate(0, 0);}
+	50% {transform: rotate(45deg) translate(20px, 20px);}
+}
+
